@@ -1,0 +1,40 @@
+
+# gender = input("What is your gender? ").lower()
+# def get_gender ():
+    
+#     if gender == "male":
+#         print("What's up bro!")
+#     elif gender == "female":
+#         print("What that mouth do?")
+#     else:
+#         print("Enter an actual gender.")
+
+# def get_body_count():
+#     body_count = int(input("What's your body count? "))
+#     if gender == "male" and body_count <= 10:
+#         print("You gotta step your game up!")
+#     elif gender == "male" and body_count <= 20:
+#         print("Still have work to do.")
+#     elif gender == "female" and body_count <= 10:
+#         print("Stop the cap!")
+#     elif gender == "female" and body_count <= 20:
+#         print("Stop the cap!")
+
+    
+
+# get_gender()
+# get_body_count()
+
+gender = input("What is your gender? ")
+while True:
+    if gender == "male" or "female":
+        break
+    else:
+        print("Enter an actual gender!")
+        continue
+
+
+if gender == "male":
+    print("What up bro!")
+elif gender == "female":
+    print("What that mouth do!")
